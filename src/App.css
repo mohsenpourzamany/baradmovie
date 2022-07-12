@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background:#363a42;
+}
+.App {
+  text-align: center;
+  font-family: Vazir;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+header img{
+  margin-left: -450px;
+}
+header h1{
+  margin-left: -600px;
+  font-weight: bolder;
+  justify-content: center;
+}
+.spiner{
+  height: 80px;
+  margin: auto;
+}
+.App-intro {
+  font-size: large;
+  color: #fff;
+  border-bottom: 1px solid #4e5054;
+  padding: 2rem;
+}
+
+.moveis{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.App-header h2 {
+  margin: 0;
+}
+
+.add-movies{
+  text-align: center;
+  flex-direction: row;
+}
+
+.add-movies button {
+  font-size: 16px;
+  padding: 8px;
+  margin: 0 10px 30px 10px ;
+}
+
+.movie{
+  padding: 10px 20px ;
+  margin: 10px;
+  width: 24%;
+  max-height: 300px;
+  color: #fff;
+  display:inline-table;
+  border: 1px solid #4e5054;
+  box-shadow: 2px 2px 2px #4e5054;
+  border-radius: 5px;
+}
+.movie img{
+  width: 200px;
+  height: 295px;
+  border-radius: 5px;
+}
+.errorMessage {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(161, 15, 15);
+}
+.search{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+input[type="submit"] {
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  border: 1px solid #282c34;
+  width: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+h1{
+  font-size: 1.4em;
+}
+h2{
+  font-size: 1.1em;
+}
+p{
+  margin-top: 10px;
+}
+input[type="submit"] {
+  font-family: tahoma;
+}
+
+input[type="submit"]:hover {
+  background-color: #282c34;
+  color: antiquewhite;
+}
+
+.search > input[type="text"] {
+  width: 40%;
+  min-width: 170px;
+} 
+
+@media screen and (min-width:694px) and (max-width:915px ) {
+  .movie{
+    max-width: 33%;
+  }
+  
+}
+@media screen and (min-width:652px) and (max-width:693px) {
+  .movie{
+    max-width: 50%;
+  }
+  
+}
+@media screen and (max-width:651px) {
+  .movie{
+    max-width: 100%;
+    margin: auto;
+  }
+  
+}
