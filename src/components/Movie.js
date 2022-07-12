@@ -1,5 +1,5 @@
 import React from "react";
-// import React from "react"
+
 const DEFAULT_PLACEHOLDER_IMAGE =
 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3wqv5k499ZORub3i-u02YuB0ZCsUJ3Yuiw&usqp=CAU";
 
